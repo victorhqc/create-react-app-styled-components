@@ -4,7 +4,9 @@
   "description": "Reproduces issue in create-react-app",
   "main": "index.js",
   "scripts": {
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "compile": "lerna bootstrap && lerna run compile",
+    "start": "lerna run start"
   },
   "repository": {
     "type": "git",
