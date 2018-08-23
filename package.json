@@ -4,7 +4,7 @@
   "description": "Reproduces issue in create-react-app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lerna": "lerna"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/victorhqc/create-react-app-styled-components/issues"
   },
-  "homepage": "https://github.com/victorhqc/create-react-app-styled-components#readme"
+  "homepage": "https://github.com/victorhqc/create-react-app-styled-components#readme",
+  "dependencies": {
+    "lerna": "3.1.4"
+  }
 }
